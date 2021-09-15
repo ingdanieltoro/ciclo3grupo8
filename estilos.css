@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+#nav_bar {
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(182, 182, 182);    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;    
+    margin: 0px;    
+}
+
+li {    
+    height: 100%;
+    width: 100%;    
+    text-align: center;    
+}
+
+a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+a:hover {
+    background-color: blue;        
+}
+
+#EstiloBoton {
+    border-radius: 5px;}
+#EstiloBoton:hover {
+    background-color: cadetblue;}
+
+#Registerbutton {
+    padding: 30px 50px;
+    border-radius: 2px;}
+#Registerbutton:hover {
+    background-color: blue;}
+
+#btnConfig {
+    width: 300px;
+}
