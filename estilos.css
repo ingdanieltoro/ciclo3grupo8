@@ -52,3 +52,58 @@ a:hover {
 #btnConfig {
     width: 300px;
 }
+
+
+/*Hice un estilo para cada id del formulario porque el reto decia 
+que habia que ponerles id diferente y poner borde verde a cada uno*/
+#campoNombre {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoUsuario {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoContrasena {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoTelefono {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoDireccion {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoCorreo {
+    width: 100%;
+    border: 1px solid green;
+}
+#campoConfirmacion {
+    width: 100%;
+    border: 1px solid green;
+}
+
+#formRegistro {
+    height: 100px;
+    width: 200px; /*Hasta aqui vienen los requisitos del reto,el resto es adicional*/
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+input {
+width: 100%;
+}
+
+h1{
+font-size: 12px;
+}
+
+p{ 
+font-size: 10px;
+width: 100%;
+}
